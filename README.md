@@ -1,6 +1,21 @@
 # datting_social
 
-A new Flutter project.
+Social networking apps. FontEnd written in Flutter. BackEnd written in golang.(Is in the process of finishing)
+
+Include function
+- SignUp, SignIn
+- JWT
+- Show list of users
+- Post an status
+- Show list of posts
+- Profile
+- Like Post (In progress)
+- Follow (In progress)
+- Edit Profile (In progress)
+- Send message (In progress)
+- Show list message (In progress)
+
+
 
 ## Getting Started
 
