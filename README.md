@@ -1,6 +1,6 @@
 # datting_social
 
-Social networking apps. FontEnd written in Flutter. BackEnd written in golang.(Is in the process of finishing)
+Social networking apps. FrontEnd written in Flutter. BackEnd written in golang.(Is in the process of finishing)
 
 Include function
 - SignUp, SignIn
