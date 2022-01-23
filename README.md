@@ -9,9 +9,9 @@ Include function
 - Post an status
 - Show list of posts
 - Profile
+- Edit Profile
 - Like Post (In progress)
 - Follow (In progress)
-- Edit Profile (In progress)
 - Send message (In progress)
 - Show list message (In progress)
 
