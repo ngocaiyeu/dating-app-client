@@ -107,7 +107,7 @@ class RemoteServices {
     return c.future;
   }
 
-  static Future<dynamic> updateLineProfile(String key, String value) async {
+  static Future<dynamic> updateLineProfile(String key, dynamic value) async {
     var response = await http.put(
       Uri.parse('$baseURL/user/profile/update/line'),
       headers: <String, String>{

@@ -13,7 +13,7 @@ class InfoSectionWidget extends StatelessWidget {
         children: <Widget>[
           buildButton(context, "$following", "Following"),
           buildDivider(),
-          buildButton(context, "$following", "Followers"),
+          buildButton(context, "$follower", "Followers"),
           buildDivider(),
           buildButton(context, "$like", "Like"),
         ],
@@ -37,7 +37,7 @@ class InfoSectionWidget extends StatelessWidget {
           children: <Widget>[
             Text(
               value,
-              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              style: const TextStyle(fontWeight: FontWeight.normal, fontSize: 16),
             ),
             const SizedBox(height: 2),
             Text(

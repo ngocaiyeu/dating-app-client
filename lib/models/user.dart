@@ -21,7 +21,7 @@ class User {
   String? formality;
   String? linkFb;
   String? linkIs;
-  String? zalo;
+  String? zlPhone;
   String? address;
   String? target;
   String? about;
@@ -48,7 +48,7 @@ class User {
     this.formality,
     this.linkFb,
     this.linkIs,
-    this.zalo,
+    this.zlPhone,
     this.address,
     this.target,
     this.about,
@@ -78,7 +78,7 @@ class User {
       'formality': formality,
       'linkFb': linkFb,
       'linkIs': linkIs,
-      'zalo': zalo,
+      'zlPhone': zlPhone,
       'address': address,
       'target': target,
       'about': about,
@@ -109,7 +109,7 @@ class User {
       formality: map['formality'],
       linkFb: map['linkFb'],
       linkIs: map['linkIs'],
-      zalo: map['zalo'],
+      zlPhone: map['zlPhone'],
       address: map['address'],
       target: map['target'],
       about: map['about'],
@@ -171,7 +171,7 @@ class User {
       formality: formality ?? this.formality,
       linkFb: linkFb ?? this.linkFb,
       linkIs: linkIs ?? this.linkIs,
-      zalo: zalo ?? this.zalo,
+      zlPhone: zalo ?? zlPhone,
       address: address ?? this.address,
       target: target ?? this.target,
       about: about ?? this.about,
@@ -185,7 +185,7 @@ class User {
 
   @override
   String toString() {
-    return 'User(id: $id, phone: $phone, fullName: $fullName, height: $height, avatar: $avatar, sex: $sex, age: $age, job: $job, income: $income, marriage: $marriage, children: $children, home: $home, zodiac: $zodiac, status: $status, formality: $formality, linkFb: $linkFb, linkIs: $linkIs, zalo: $zalo, address: $address, target: $target, about: $about, like: $countLike, following: $countFollowing, follower: $countFollower, err: $err, token: $token)';
+    return 'User(id: $id, phone: $phone, fullName: $fullName, height: $height, avatar: $avatar, sex: $sex, age: $age, job: $job, income: $income, marriage: $marriage, children: $children, home: $home, zodiac: $zodiac, status: $status, formality: $formality, linkFb: $linkFb, linkIs: $linkIs, zalo: $zlPhone, address: $address, target: $target, about: $about, like: $countLike, following: $countFollowing, follower: $countFollower, err: $err, token: $token)';
   }
 
   @override
@@ -210,7 +210,7 @@ class User {
         other.formality == formality &&
         other.linkFb == linkFb &&
         other.linkIs == linkIs &&
-        other.zalo == zalo &&
+        other.zlPhone == zlPhone &&
         other.address == address &&
         other.target == target &&
         other.about == about &&
@@ -240,7 +240,7 @@ class User {
         formality.hashCode ^
         linkFb.hashCode ^
         linkIs.hashCode ^
-        zalo.hashCode ^
+        zlPhone.hashCode ^
         address.hashCode ^
         target.hashCode ^
         about.hashCode ^

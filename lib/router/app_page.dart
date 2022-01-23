@@ -6,8 +6,8 @@ import 'package:datting_social/screens/home/home_main.dart';
 import 'package:datting_social/screens/login/login_screen.dart';
 import 'package:datting_social/screens/login/register_screen.dart';
 import 'package:datting_social/screens/news/full_imgae.dart';
-import 'package:datting_social/screens/news/news_screen.dart';
 import 'package:datting_social/screens/post_status/post_screen.dart';
+import 'package:datting_social/screens/profile/edit_profile.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
 class AppPages {
@@ -39,6 +39,10 @@ class AppPages {
     GetPage(
       name: AppRoutes.post,
       page: () => const PostScreen(),
+    ),
+    GetPage(
+      name: AppRoutes.editProfile,
+      page: () => const EditProfileScreen(),
     ),
   ];
 }

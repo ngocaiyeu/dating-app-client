@@ -30,6 +30,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     RemoteServices.getProfile('${await SPref.instance.get("userId")}')
         .then((value) {
       user = value;
+      print(user.countFollower);
       _streamController.sink.add(value);
     });
   }
